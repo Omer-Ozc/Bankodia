@@ -8,6 +8,8 @@ target 'Bankodia' do
 
   use_react_native!(:path => config["reactNativePath"])
 
+  pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
+
   target 'BankodiaTests' do
     inherit! :complete
     # Pods for testing
