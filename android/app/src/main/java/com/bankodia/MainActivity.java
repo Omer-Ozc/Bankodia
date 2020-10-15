@@ -1,6 +1,7 @@
 package com.bankodia;
 
 import com.facebook.react.ReactActivity;
+import androidx.multidex.MultiDexApplication;
 
 public class MainActivity extends ReactActivity {
 

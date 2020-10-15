@@ -1,20 +1,27 @@
 import React, { Component } from 'react';
 import { View, Text } from 'react-native';
-import FontAwesomeIcon from 'react-native-vector-icons/FontAwesome';
-import { Sae } from 'react-native-textinput-effects';
+import BHeader from '../components/BHeader'
 
 
 export default class RegisterPage extends Component {
   constructor(props) {
     super(props);
     this.state = {
+
     };
+  }
+
+
+
+  goBack(){
+    console.log("asda")
+    this.props.navigation.goBack()
   }
 
   render() {
     return (
-      <View >
-        <Text> RegisterPage </Text>
+      <View style = {{flex:1}}>
+        <BHeader/>
       </View>
     );
   }
